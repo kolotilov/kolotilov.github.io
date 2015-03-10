@@ -2,4 +2,4 @@
 iOS-inspired Calculator
 
 jsFiddle link:
-http://jsfiddle.net/ivan_kolotilov/gguqmaz6/2/
+https://jsfiddle.net/ivan_kolotilov/gguqmaz6/3/
