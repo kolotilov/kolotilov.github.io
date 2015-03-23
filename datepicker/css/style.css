@@ -1,41 +1,5 @@
-header,
-section,
-footer,
-aside,
-nav,
-article,
-figure,
-audio,
-video,
-canvas {
-  display: block;
-}
 
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-form,
-fieldset,
-input,
-p,
-blockquote,
-table,
-th,
-td,
-embed,
-object {
+body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
   padding: 0;
   margin: 0;
 }
@@ -114,17 +78,13 @@ object {
 }
 
 .days-month__day:hover {
-	/*background-image: linear-gradient(to top, #ffbf9e, #fff8c7); */
 	border:1px solid #ffbf9e;
 	padding: 2px 3px 1px 3px;
 }
 
-.days-month__day_chosen {
+.days-month__day_chosen, .days-month__day_chosen:hover {
 	background-image: linear-gradient(to top, #ff9057, #fff291);
-}
-
-.days-month__day_chosen:hover {
-	background-image: linear-gradient(to top, #ff9057, #fff291);
+	background-color: #ff9057;
 }
 
 .days-month__label {
@@ -171,7 +131,6 @@ object {
 	padding-right: 20px;
 	overflow: auto;
 	z-index: 2;
-
 }
 
 .months-b__control, .years-b__control {
@@ -203,12 +162,12 @@ object {
 	height: 25px;
 }
 
-
 .blank-cells-1, .blank-cells-2, .blank-cells-3, .blank-cells-4, .blank-cells-5, .blank-cells-6 {
 	height: 22px;
 	display: inline-block;
 	vertical-align: top;
 } 
+
 .blank-cells-1 {
 	width: 22px;
 }
@@ -216,15 +175,19 @@ object {
 .blank-cells-2 {
 	width: 48px;
 }
+
 .blank-cells-3{
 	width: 74px;
 }
+
 .blank-cells-4 {
 	width: 100px;
 }
+
 .blank-cells-5 {
 	width: 125px;
 }
+
 .blank-cells-6 {
 	width:150px;
 }
@@ -232,6 +195,3 @@ object {
 .datepicker.shown {
 	display: block;
 }
-
-
-overflow auto
