@@ -3,12 +3,16 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
   margin: 0;
 }
 
+li {
+	list-style: none;
+}
+
 .wrapper {
 	width: 500px;
 	margin: 40px auto;
 }
 
-.date_input {
+.date-input {
 	background-image: url('data:image/jpg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwMDAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAJABUDAREAAhEBAxEB/8QAZgAAAwEAAAAAAAAAAAAAAAAAAgYIBAEBAAAAAAAAAAAAAAAAAAAAABAAAAUCAgcJAQAAAAAAAAAAAQIDBAURBhIiAHETMxQkFSGxwTIjxRaGB0gRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AHdy8nL6nrOk5OzrfkGb+AkJKOj5GQUcJlSXUjD7RTHGKFIsmU5SgBSmAcRswUoYFuy7NBx8CrYNquxd2qu45lenF4emc06rGK0cBtcoepvD5wpnDAt+eOlPyRnchbOtlNq2st0CzkFzcYso4Zt1k5AxOnAHFIlbnEoCqI4lBooHaIhKx94fWPcOgCXyDq8dAvL+Y/pPsmgf/9k=');
 	background-repeat: no-repeat;
 	background-position: 112px;	
@@ -26,10 +30,6 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
 	border: 1px solid #eee;
 }
 
-.datepicker li {
-	list-style: none;
-}
-
 .day-labels {
 	padding: 0 0 4px 7px;
 }
@@ -44,7 +44,7 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
 	color:#c00;
 }
 
-.days-b {
+.days {
 	display: inline-block;
 	width: 195px;
 	height: 273px;
@@ -63,8 +63,9 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
 
 }
 
-.days-month:first-child p {
-	margin: 0 0 4px 0;
+
+.days-month {
+	margin: 0 0 14px 0;
 }
 
 .days-month-inner_collapsed {
@@ -93,8 +94,7 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
 	font-weight: bold;
 	width: 65px; /* или сделать auto? тогда как расположить ровно 1-ю неделю? */
 	text-align: left;
-	margin: 10px 0 4px 0;
-	padding: 0 0 0 6px;
+	padding: 0 0 4px 6px;
 }
 
 .months-b, .years-b{
@@ -177,33 +177,33 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
 	border: 1px solid #ddd;
 }
 
-.blank-cells-1, .blank-cells-2, .blank-cells-3, .blank-cells-4, .blank-cells-5, .blank-cells-6 {
+.days-month__blank {
 	height: 22px;
 	display: inline-block;
 	vertical-align: top;
 } 
 
-.blank-cells-1 {
+.days-month__blank{
 	width: 22px;
 }
 
-.blank-cells-2 {
+.days-month__blank_2 {
 	width: 48px;
 }
 
-.blank-cells-3{
+.days-month__blank_3{
 	width: 74px;
 }
 
-.blank-cells-4 {
+.days-month__blank_4 {
 	width: 100px;
 }
 
-.blank-cells-5 {
+.days-month__blank_5 {
 	width: 125px;
 }
 
-.blank-cells-6 {
+.days-month__blank_6 {
 	width:150px;
 }
 
