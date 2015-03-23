@@ -11,8 +11,9 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
 .date_input {
 	background-image: url('data:image/jpg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwMDAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAJABUDAREAAhEBAxEB/8QAZgAAAwEAAAAAAAAAAAAAAAAAAgYIBAEBAAAAAAAAAAAAAAAAAAAAABAAAAUCAgcJAQAAAAAAAAAAAQIDBAURBhIiAHETMxQkFSGxwTIjxRaGB0gRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AHdy8nL6nrOk5OzrfkGb+AkJKOj5GQUcJlSXUjD7RTHGKFIsmU5SgBSmAcRswUoYFuy7NBx8CrYNquxd2qu45lenF4emc06rGK0cBtcoepvD5wpnDAt+eOlPyRnchbOtlNq2st0CzkFzcYso4Zt1k5AxOnAHFIlbnEoCqI4lBooHaIhKx94fWPcOgCXyDq8dAvL+Y/pPsmgf/9k=');
 	background-repeat: no-repeat;
-	background-position: right;	
-	width: 130px;
+	background-position: 112px;	
+	width: 135px;
+	padding: 0 25px 0 0 0;
 }
 
 .datepicker {
@@ -21,7 +22,8 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
 	padding:10px 4px 6px 4px;
 	font-family: Tahoma, sans-serif;
 	font-size: 12px;
-	box-shadow:         0px 5px 20px 0px rgba(50, 50, 50, 0.4);
+	box-shadow: 0px 5px 20px 0px rgba(50, 50, 50, 0.4);
+	border: 1px solid #eee;
 }
 
 .datepicker li {
@@ -44,9 +46,10 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
 
 .days-b {
 	display: inline-block;
-	width: 197px;
-	height: 275px;
+	width: 195px;
+	height: 273px;
 	box-shadow: inset 1px 1px 3px 0px rgba(0, 0, 0, 0.4);
+	border: 1px solid #ccc;
 	border-radius: 2px;
 	overflow:hidden;
 }
@@ -144,7 +147,7 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
 
 .months-b__control, .years-b__control {
 	position: absolute;
-	width: 64px;
+	width: 62px;
 	background-color: #f6f6f6;
 	top: 114px;
 	left: 1px;
@@ -162,14 +165,16 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
 }
 
 .months-b__control {
-	width: 65px;
-	top: 102px;
+	width: 63px;
+	top: 100px;
 	height: 51px;
+	border: 1px solid #ddd;
 }
 
 .years-b__control {
-	top:114px;
+	top:113px;
 	height: 25px;
+	border: 1px solid #ddd;
 }
 
 .blank-cells-1, .blank-cells-2, .blank-cells-3, .blank-cells-4, .blank-cells-5, .blank-cells-6 {
