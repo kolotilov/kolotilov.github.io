@@ -112,10 +112,20 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
 	height: 15px;
   	padding: 4px 6px;
   	z-index: 3;
+  	cursor: pointer;
+}
+
+.months-b__month_dimmed-2 {
+	color: #8f8f8f;
+}
+
+.months-b__month_dimmed-1 {
+	color: #646464;
 }
 
 .years-b__year {
 	padding: 4px 10px;
+	color: #424242;
 }
 
 .years-b {
@@ -140,6 +150,7 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, form, input, p {
 	left: 1px;
 	border-radius: 1px;
 	box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.4);
+	cursor:move;
 }
 
 .months-b__control:after, .years-b__control:after{
