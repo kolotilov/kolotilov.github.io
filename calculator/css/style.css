@@ -66,3 +66,8 @@
 .selected_operator {
 	background: #D27E10 !important;
 }
+
+body {
+	background: url(../img/space-bg.jpg) center top no-repeat;
+	background-size: cover;
+}
