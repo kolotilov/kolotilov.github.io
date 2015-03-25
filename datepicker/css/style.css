@@ -92,7 +92,7 @@ li {
 
 .days-month__label {
 	font-weight: bold;
-	width: 65px; /* или сделать auto? тогда как расположить ровно 1-ю неделю? */
+	width: 65px;
 	text-align: left;
 	padding: 0 0 4px 6px;
 }
@@ -205,8 +205,4 @@ li {
 
 .days-month__blank_6 {
 	width:150px;
-}
-
-.datepicker.shown {
-	display: block;
 }
