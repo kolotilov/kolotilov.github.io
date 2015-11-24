@@ -1869,3 +1869,9 @@ iframe {
     display: block;
   }
 }
+@media screen and (max-width: 500px) {
+  .formError {
+    left: 0px!important;
+    width: 250px!important;
+  }
+}
