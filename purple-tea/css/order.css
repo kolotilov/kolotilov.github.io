@@ -1,0 +1,298 @@
+/* Ð·Ð°ÐºÐ°Ð· */
+.order .title {line-height:52px}
+.order form {
+	float:left;
+	width:447px;
+	margin:42px 0 0 40px
+}
+.order .form-group {margin-bottom:17px}
+.order label {
+	font-size:20px;
+	line-height:17px
+}
+.order label span {
+	display:block;
+	font-size:14px
+}
+.order input.text {
+	display:block;
+	width:405px;
+	height:38px;
+	margin-top:8px;
+	padding:0 19px;
+	font:14px/38px Tahoma, Arial, Geneva, sans-serif;
+	color:#696969;
+	border:1px solid #c2c3c5;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-moz-background-clip:padding;
+	-webkit-background-clip:padding-box;
+	background-clip:padding-box;
+	background-color:#fff
+}
+.order input.text.phone {font-size:16px}
+.order .price {
+	margin:-3px 0 10px;
+	height:40px;
+	font:22px/50px "HelveticaNeueCyrThin", Helvetica, Arial, sans-serif
+}
+.order .price span {
+	display:inline-block;
+	vertical-align:top;
+	width:140px;
+	margin-left:-10px;
+	padding:0 10px;
+	font-size:32px;
+	line-height:40px;
+	font-weight:bold;
+	color:#cf1700;
+	background:url("../img/sprites.png") no-repeat 0 -48px
+}
+.order .price span em {
+	font-size:20px;
+	font-style:normal
+}
+.order table {
+	width:100%;
+	margin:-1px;
+	margin-bottom:5px;
+	border-collapse:separate;
+	border-spacing:1px
+}
+.order caption {
+	margin-bottom:16px;
+	text-align:left;
+	font-size:16px;
+	font-weight:bold
+}
+.order th, .order td {
+	text-align:center;
+	vertical-align:middle;
+	font-size:12px;
+	color:#fff;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-moz-background-clip:padding;
+	-webkit-background-clip:padding-box;
+	background-clip:padding-box
+}
+.order th {
+	padding:11px 0 12px;
+	background-color:#b1ebff;
+	background-color:rgba(6, 102, 176, 0.5)
+}
+.order td {padding:15px 0 10px}
+.order td.big {font-size:14px}
+.order td em {
+	font-style:normal;
+	font-size:14px;
+	color:#ffef61
+}
+.order td em.big {font-size:16px}
+.order .type-1 td {
+	background-color:#4a563e;
+	background-color:rgba(6, 102, 176, 0.6)
+}
+.order .type-2 td {
+	background-color:#343e26;
+	background-color:rgba(6, 102, 176, 0.7)
+}
+.order .type-3 td {
+	background-color:#272d17;
+	background-color:rgba(6, 102, 176, 0.8)
+}
+.order .radio {
+	display:inline-block;
+	width:12px;
+	height:12px;
+	overflow:hidden;
+	cursor:pointer;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+	background:url("../img/sprites.png") no-repeat 0 -100px
+}
+.order .radio.active {background-position:-50px -100px}
+.order .radio input {display:none}
+.order .total {
+	height:40px;
+	font-size:16px;
+	line-height:40px
+}
+.order .total span {
+	display:inline-block;
+	vertical-align:top;
+	width:79px;
+	height:38px;
+	margin:0 4px 0 0;
+	padding-left:19px;
+	border:1px solid #c2c3c5;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-moz-background-clip:padding;
+	-webkit-background-clip:padding-box;
+	background-clip:padding-box;
+	background-color:#fff
+}
+.order .button {
+	display:block;
+	width:100%;
+	height:60px;
+	margin:20px 0 7px;
+	text-align:center;
+	font:24px/58px "HelveticaNeueCyrThin", Helvetica, Arial, sans-serif;
+	color:#fff;
+	text-transform:uppercase;
+	border:none;
+	border-bottom:2px solid #481b00;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-moz-background-clip:padding;
+	-webkit-background-clip:padding-box;
+	background-clip:padding-box;
+	cursor:pointer;
+	background:#cf1700;
+	background:-moz-linear-gradient(top, #ff7000 0%, #cf1700 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff7000), color-stop(100%, #cf1700));
+	background:-webkit-linear-gradient(top, #ff7000 0%, #cf1700 100%);
+	background:-o-linear-gradient(top, #ff7000 0%, #cf1700 100%);
+	background:-ms-linear-gradient(top, #ff7000 0%, #cf1700 100%);
+	background:linear-gradient(to bottom, #ff7000 0%, #cf1700 100%)
+}
+.order .button:hover {background:#cf1700}
+.order .promo {
+	float:left;
+	width:325px;
+	margin:93px 0 0 90px
+}
+.order .sale {
+	height:242px;
+	font:36px/36px "HelveticaNeueCyrThin", Helvetica, Arial, sans-serif;
+	background:url("../img/sale.png") no-repeat 0 100%
+}
+.order .sale span {
+	display:block;
+	margin-top:4px;
+	overflow:hidden
+}
+.order .sale span em {
+	float:left;
+	height:32px;
+	padding:0 10px;
+	font-style:normal;
+	font-size:24px;
+	line-height:32px;
+	color:#fff;
+	text-transform:uppercase;
+	background-color:#ce1600
+}
+.order .timer {
+	margin-top:50px;
+	font-family:"HelveticaNeueCyrThin", Helvetica, Arial, sans-serif
+}
+.order .timer .title {
+	height:32px;
+	margin-bottom:20px;
+	text-align:left;
+	font-size:24px;
+	line-height:32px;
+	color:#fff
+}
+.order .timer .title em {
+	display:inline-block;
+	vertical-align:top;
+	height:32px;
+	margin:0 2px 0 5px;
+	padding:0 10px;
+	font-style:normal;
+	text-transform:uppercase;
+	color:#fff;
+	background-color:#cf1700
+}
+.order .timer .time {overflow:hidden}
+.order .timer .time span {
+	float:left;
+	width:75px;
+	height:75px;
+	margin:0 0 10px 10px;
+	text-align:center;
+	font-size:36px;
+	line-height:75px;
+	background-color:#fff
+}
+.order .timer .time span.first {margin-left:0}
+.order .timer .time span.last {
+	width:70px;
+	height:70px;
+	margin-top:5px;
+	font-size:24px;
+	line-height:75px;
+	color:#cf1700
+}
+.order .timer .time.tiny span {
+	height:28px;
+	margin-top:0;
+	font:16px/24px "Trebuchet MS", Verdana, sans-serif;
+	color:#262626
+}
+.order .timer .corner {
+	position:absolute;
+	left:267px;
+	bottom:37px;
+	display:block;
+	overflow:hidden;
+	border-color:transparent;
+	border-style:solid;
+	border-width:16px;
+	border-left-color:#b5c927
+}
+.order .info {
+	margin-top:20px;
+	padding:17px 20px 18px;
+	font-size:12px;
+	line-height:14px;
+	color:#fff;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-moz-background-clip:padding;
+	-webkit-background-clip:padding-box;
+	background-clip:padding-box;
+	background:url("../img/pixel_black.png") repeat 0 0
+}
+.order table{
+    line-height: 16px;
+    font-weight: bold;
+}
+
+@media (max-device-width: 640px) {
+    .order form {
+        width: 100%;
+    }
+   .order table {
+	width: 100%;
+	margin:10px;
+	margin-bottom:5px;
+	border-collapse:separate;
+	border-spacing:1px
+   }            
+.order th, .order td {
+	font-size:20px;
+        line-height: 22px;
+}            
+
+.order td.big {font-size:20px}
+.order td em {
+	font-size:20px;
+}
+.order td em.big {font-size:20px}
+
+.order .button {
+ margin:70px 0 7px;   
+}
+
+}
