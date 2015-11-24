@@ -1281,6 +1281,7 @@ iframe {
     position: relative;
     height: 240px;
     overflow: hidden;
+    z-index: 1;
   }
 }
 @media screen and (max-width: 980px) {
