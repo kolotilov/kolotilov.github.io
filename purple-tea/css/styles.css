@@ -1260,8 +1260,9 @@ iframe {
     border: none;
     position: relative;
     padding-bottom: 0 ;
-    height: 240px;
+    height: 220px;
     padding-top: 25px;
+    overflow: hidden;
   }
 }
 .resp-video iframe {
@@ -1279,6 +1280,7 @@ iframe {
       */
     position: relative;
     height: 240px;
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 980px) {
